@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33CC0862C35A4FF0047EBF2 /* anirb___.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A33CC0852C35A4FF0047EBF2 /* anirb___.ttf */; };
+		A33CC0892C35A9700047EBF2 /* AnironBoldFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33CC0882C35A9630047EBF2 /* AnironBoldFont.swift */; };
+		A34B50812C36B97E0030B6FD /* EasyQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34B50802C36B97E0030B6FD /* EasyQuizView.swift */; };
+		A3E1FA552C357643005D45C8 /* HobbitonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1FA542C357643005D45C8 /* HobbitonApp.swift */; };
+		A3E1FA572C357643005D45C8 /* QuizHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1FA562C357643005D45C8 /* QuizHomeScreen.swift */; };
+		A3E1FA592C357644005D45C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E1FA582C357644005D45C8 /* Assets.xcassets */; };
+		A3E1FA5C2C357644005D45C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E1FA5B2C357644005D45C8 /* Preview Assets.xcassets */; };
+		A3E1FA662C357645005D45C8 /* HobbitonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1FA652C357645005D45C8 /* HobbitonTests.swift */; };
+		A3E1FA702C357645005D45C8 /* HobbitonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1FA6F2C357645005D45C8 /* HobbitonUITests.swift */; };
+		A3E1FA722C357645005D45C8 /* HobbitonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1FA712C357645005D45C8 /* HobbitonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3E1FA622C357645005D45C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3E1FA492C357643005D45C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E1FA502C357643005D45C8;
+			remoteInfo = Hobbiton;
+		};
+		A3E1FA6C2C357645005D45C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3E1FA492C357643005D45C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E1FA502C357643005D45C8;
+			remoteInfo = Hobbiton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A33CC0852C35A4FF0047EBF2 /* anirb___.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "anirb___.ttf"; sourceTree = "<group>"; };
+		A33CC0872C35A56D0047EBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A33CC0882C35A9630047EBF2 /* AnironBoldFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnironBoldFont.swift; sourceTree = "<group>"; };
+		A34B50802C36B97E0030B6FD /* EasyQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyQuizView.swift; sourceTree = "<group>"; };
+		A3E1FA512C357643005D45C8 /* Hobbiton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hobbiton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E1FA542C357643005D45C8 /* HobbitonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitonApp.swift; sourceTree = "<group>"; };
+		A3E1FA562C357643005D45C8 /* QuizHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHomeScreen.swift; sourceTree = "<group>"; };
+		A3E1FA582C357644005D45C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3E1FA5B2C357644005D45C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3E1FA612C357645005D45C8 /* HobbitonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbitonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E1FA652C357645005D45C8 /* HobbitonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitonTests.swift; sourceTree = "<group>"; };
+		A3E1FA6B2C357645005D45C8 /* HobbitonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbitonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E1FA6F2C357645005D45C8 /* HobbitonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitonUITests.swift; sourceTree = "<group>"; };
+		A3E1FA712C357645005D45C8 /* HobbitonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E1FA4E2C357643005D45C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E1FA5E2C357644005D45C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E1FA682C357645005D45C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3E1FA482C357643005D45C8 = {
+			isa = PBXGroup;
+			children = (
+				A3E1FA532C357643005D45C8 /* Hobbiton */,
+				A3E1FA642C357645005D45C8 /* HobbitonTests */,
+				A3E1FA6E2C357645005D45C8 /* HobbitonUITests */,
+				A3E1FA522C357643005D45C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E1FA522C357643005D45C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E1FA512C357643005D45C8 /* Hobbiton.app */,
+				A3E1FA612C357645005D45C8 /* HobbitonTests.xctest */,
+				A3E1FA6B2C357645005D45C8 /* HobbitonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E1FA532C357643005D45C8 /* Hobbiton */ = {
+			isa = PBXGroup;
+			children = (
+				A33CC0872C35A56D0047EBF2 /* Info.plist */,
+				A3E1FA542C357643005D45C8 /* HobbitonApp.swift */,
+				A3E1FA582C357644005D45C8 /* Assets.xcassets */,
+				A33CC0852C35A4FF0047EBF2 /* anirb___.ttf */,
+				A3E1FA5A2C357644005D45C8 /* Preview Content */,
+				A3E1FA802C35783C005D45C8 /* Models */,
+				A3E1FA7F2C35782F005D45C8 /* Services */,
+				A3E1FA7E2C35781C005D45C8 /* Views */,
+			);
+			path = Hobbiton;
+			sourceTree = "<group>";
+		};
+		A3E1FA5A2C357644005D45C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3E1FA5B2C357644005D45C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3E1FA642C357645005D45C8 /* HobbitonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3E1FA652C357645005D45C8 /* HobbitonTests.swift */,
+			);
+			path = HobbitonTests;
+			sourceTree = "<group>";
+		};
+		A3E1FA6E2C357645005D45C8 /* HobbitonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3E1FA6F2C357645005D45C8 /* HobbitonUITests.swift */,
+				A3E1FA712C357645005D45C8 /* HobbitonUITestsLaunchTests.swift */,
+			);
+			path = HobbitonUITests;
+			sourceTree = "<group>";
+		};
+		A3E1FA7E2C35781C005D45C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3E1FA562C357643005D45C8 /* QuizHomeScreen.swift */,
+				A33CC0882C35A9630047EBF2 /* AnironBoldFont.swift */,
+				A34B50802C36B97E0030B6FD /* EasyQuizView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3E1FA7F2C35782F005D45C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A3E1FA802C35783C005D45C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E1FA502C357643005D45C8 /* Hobbiton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E1FA752C357645005D45C8 /* Build configuration list for PBXNativeTarget "Hobbiton" */;
+			buildPhases = (
+				A3E1FA4D2C357643005D45C8 /* Sources */,
+				A3E1FA4E2C357643005D45C8 /* Frameworks */,
+				A3E1FA4F2C357643005D45C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hobbiton;
+			productName = Hobbiton;
+			productReference = A3E1FA512C357643005D45C8 /* Hobbiton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3E1FA602C357644005D45C8 /* HobbitonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E1FA782C357645005D45C8 /* Build configuration list for PBXNativeTarget "HobbitonTests" */;
+			buildPhases = (
+				A3E1FA5D2C357644005D45C8 /* Sources */,
+				A3E1FA5E2C357644005D45C8 /* Frameworks */,
+				A3E1FA5F2C357644005D45C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3E1FA632C357645005D45C8 /* PBXTargetDependency */,
+			);
+			name = HobbitonTests;
+			productName = HobbitonTests;
+			productReference = A3E1FA612C357645005D45C8 /* HobbitonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3E1FA6A2C357645005D45C8 /* HobbitonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E1FA7B2C357645005D45C8 /* Build configuration list for PBXNativeTarget "HobbitonUITests" */;
+			buildPhases = (
+				A3E1FA672C357645005D45C8 /* Sources */,
+				A3E1FA682C357645005D45C8 /* Frameworks */,
+				A3E1FA692C357645005D45C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3E1FA6D2C357645005D45C8 /* PBXTargetDependency */,
+			);
+			name = HobbitonUITests;
+			productName = HobbitonUITests;
+			productReference = A3E1FA6B2C357645005D45C8 /* HobbitonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E1FA492C357643005D45C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A3E1FA502C357643005D45C8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A3E1FA602C357644005D45C8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A3E1FA502C357643005D45C8;
+					};
+					A3E1FA6A2C357645005D45C8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A3E1FA502C357643005D45C8;
+					};
+				};
+			};
+			buildConfigurationList = A3E1FA4C2C357643005D45C8 /* Build configuration list for PBXProject "Hobbiton" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3E1FA482C357643005D45C8;
+			productRefGroup = A3E1FA522C357643005D45C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E1FA502C357643005D45C8 /* Hobbiton */,
+				A3E1FA602C357644005D45C8 /* HobbitonTests */,
+				A3E1FA6A2C357645005D45C8 /* HobbitonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3E1FA4F2C357643005D45C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E1FA5C2C357644005D45C8 /* Preview Assets.xcassets in Resources */,
+				A33CC0862C35A4FF0047EBF2 /* anirb___.ttf in Resources */,
+				A3E1FA592C357644005D45C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E1FA5F2C357644005D45C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E1FA692C357645005D45C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E1FA4D2C357643005D45C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E1FA572C357643005D45C8 /* QuizHomeScreen.swift in Sources */,
+				A3E1FA552C357643005D45C8 /* HobbitonApp.swift in Sources */,
+				A33CC0892C35A9700047EBF2 /* AnironBoldFont.swift in Sources */,
+				A34B50812C36B97E0030B6FD /* EasyQuizView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E1FA5D2C357644005D45C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E1FA662C357645005D45C8 /* HobbitonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E1FA672C357645005D45C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E1FA722C357645005D45C8 /* HobbitonUITestsLaunchTests.swift in Sources */,
+				A3E1FA702C357645005D45C8 /* HobbitonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3E1FA632C357645005D45C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E1FA502C357643005D45C8 /* Hobbiton */;
+			targetProxy = A3E1FA622C357645005D45C8 /* PBXContainerItemProxy */;
+		};
+		A3E1FA6D2C357645005D45C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E1FA502C357643005D45C8 /* Hobbiton */;
+			targetProxy = A3E1FA6C2C357645005D45C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3E1FA732C357645005D45C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3E1FA742C357645005D45C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3E1FA762C357645005D45C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hobbiton/Preview Content\"";
+				DEVELOPMENT_TEAM = DG4449RVDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hobbiton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gc.Hobbiton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3E1FA772C357645005D45C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hobbiton/Preview Content\"";
+				DEVELOPMENT_TEAM = DG4449RVDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hobbiton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gc.Hobbiton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3E1FA792C357645005D45C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG4449RVDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gc.HobbitonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hobbiton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hobbiton";
+			};
+			name = Debug;
+		};
+		A3E1FA7A2C357645005D45C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG4449RVDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gc.HobbitonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hobbiton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hobbiton";
+			};
+			name = Release;
+		};
+		A3E1FA7C2C357645005D45C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG4449RVDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gc.HobbitonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hobbiton;
+			};
+			name = Debug;
+		};
+		A3E1FA7D2C357645005D45C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG4449RVDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gc.HobbitonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hobbiton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E1FA4C2C357643005D45C8 /* Build configuration list for PBXProject "Hobbiton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E1FA732C357645005D45C8 /* Debug */,
+				A3E1FA742C357645005D45C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E1FA752C357645005D45C8 /* Build configuration list for PBXNativeTarget "Hobbiton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E1FA762C357645005D45C8 /* Debug */,
+				A3E1FA772C357645005D45C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E1FA782C357645005D45C8 /* Build configuration list for PBXNativeTarget "HobbitonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E1FA792C357645005D45C8 /* Debug */,
+				A3E1FA7A2C357645005D45C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E1FA7B2C357645005D45C8 /* Build configuration list for PBXNativeTarget "HobbitonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E1FA7C2C357645005D45C8 /* Debug */,
+				A3E1FA7D2C357645005D45C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E1FA492C357643005D45C8 /* Project object */;
+}
