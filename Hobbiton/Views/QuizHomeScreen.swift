@@ -10,37 +10,57 @@ import SwiftUI
 struct QuizHomeScreen: View {
     var body: some View {
         NavigationStack {
-            VStack(alignment: .center, spacing: 0) {
-                Text("Worthy of the fellowship? \n Test your knowledge now:" )
+            VStack(spacing: 20) {
+                Text("Test your Tolkien knowledge now:" )
                     .multilineTextAlignment(.center)
-                    .frame(maxWidth: .infinity)
-                    .background(Color("forest"))
-                    .font(.anironBold(20))
-                VStack {
-                    Text("Choose your difficulty:")
-                        .padding(2)
-                    NavigationLink(destination: EasyQuizView()) {
-                        Label("Easy", systemImage: "leaf.fill")
-                    }
-                    NavigationLink(destination: EmptyView()) {
-                        Label("Medium", systemImage: "cloud.drizzle.fill")
-                    }
-                    NavigationLink(destination: EmptyView()) {
-                        Label("Hard", systemImage: "mountain.2.fill")
-                    }
-                    NavigationLink(destination: EmptyView()) {
-                        Label("Impossible", systemImage: "flame.fill")
-                    }
+                    .font(.anironBold(28))
+                Text("Choose your difficulty:")
+                    .padding(10)
+                NavigationLink(destination: EasyQuizView()) {
+                    Label("Easy", systemImage: "leaf.fill")
                 }
-                .frame(maxWidth: .infinity)
-                .foregroundStyle(Color("trunk"))
-                .font(.anironBold(16))
+                .padding(8)
                 .background(Color("leaf"))
+                .clipShape(.rect(cornerRadius: 10))
+                NavigationLink(destination: EmptyView()) {
+                    Label("Medium", systemImage: "cloud.drizzle.fill")
+                }
+                .padding(8)
+                .background(Color("leaf"))
+                .clipShape(.rect(cornerRadius: 10))
+                NavigationLink(destination: EmptyView()) {
+                    Label("Hard", systemImage: "mountain.2.fill")
+                }
+                .padding(8)
+                .background(Color("leaf"))
+                .clipShape(.rect(cornerRadius: 10))
+                NavigationLink(destination: EmptyView()) {
+                    Label("Impossible", systemImage: "flame.fill")
+                        .padding(8)
+                        .background(Color("leaf"))
+                    .clipShape(.rect(cornerRadius: 10))                    }
+                Spacer()
             }
-
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+            .foregroundStyle(Color("trunk"))
+            .font(.anironBold(20))
+            .background(Color("forest"))
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink(destination: ProfileView()) {
+                        Label("", systemImage: "person.crop.circle")
+                    }
+                    .tint(Color("leaf"))
+                }
+            }
         }
     }
 }
+
+
 #Preview {
     QuizHomeScreen()
 }
+
+
+

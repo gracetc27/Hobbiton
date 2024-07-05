@@ -10,6 +10,7 @@
 		A33CC0862C35A4FF0047EBF2 /* anirb___.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A33CC0852C35A4FF0047EBF2 /* anirb___.ttf */; };
 		A33CC0892C35A9700047EBF2 /* AnironBoldFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33CC0882C35A9630047EBF2 /* AnironBoldFont.swift */; };
 		A34B50812C36B97E0030B6FD /* EasyQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34B50802C36B97E0030B6FD /* EasyQuizView.swift */; };
+		A3512FC62C381604003E5727 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3512FC52C381604003E5727 /* ProfileView.swift */; };
 		A3E1FA552C357643005D45C8 /* HobbitonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1FA542C357643005D45C8 /* HobbitonApp.swift */; };
 		A3E1FA572C357643005D45C8 /* QuizHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1FA562C357643005D45C8 /* QuizHomeScreen.swift */; };
 		A3E1FA592C357644005D45C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E1FA582C357644005D45C8 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		A33CC0872C35A56D0047EBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A33CC0882C35A9630047EBF2 /* AnironBoldFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnironBoldFont.swift; sourceTree = "<group>"; };
 		A34B50802C36B97E0030B6FD /* EasyQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyQuizView.swift; sourceTree = "<group>"; };
+		A3512FC52C381604003E5727 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A3E1FA512C357643005D45C8 /* Hobbiton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hobbiton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E1FA542C357643005D45C8 /* HobbitonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbitonApp.swift; sourceTree = "<group>"; };
 		A3E1FA562C357643005D45C8 /* QuizHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHomeScreen.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				A3E1FA562C357643005D45C8 /* QuizHomeScreen.swift */,
 				A33CC0882C35A9630047EBF2 /* AnironBoldFont.swift */,
 				A34B50802C36B97E0030B6FD /* EasyQuizView.swift */,
+				A3512FC52C381604003E5727 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				A3E1FA572C357643005D45C8 /* QuizHomeScreen.swift in Sources */,
 				A3E1FA552C357643005D45C8 /* HobbitonApp.swift in Sources */,
+				A3512FC62C381604003E5727 /* ProfileView.swift in Sources */,
 				A33CC0892C35A9700047EBF2 /* AnironBoldFont.swift in Sources */,
 				A34B50812C36B97E0030B6FD /* EasyQuizView.swift in Sources */,
 			);
