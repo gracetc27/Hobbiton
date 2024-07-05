@@ -14,32 +14,24 @@ struct QuizHomeScreen: View {
                 Text("Test your Tolkien knowledge now:" )
                     .multilineTextAlignment(.center)
                     .font(.anironBold(28))
+                    .background(Color("wood"))
+                    .mask {
+                        RoundedRectangle(cornerRadius: 10)
+                            .blur(radius: 15)
+                            .padding(5)
+                    }
                 Text("Choose your difficulty:")
                     .padding(10)
-                NavigationLink(destination: EasyQuizView()) {
-                    Label("Easy", systemImage: "leaf.fill")
-                }
-                .padding(8)
-                .background(Color("leaf"))
-                .clipShape(.rect(cornerRadius: 10))
-                NavigationLink(destination: EmptyView()) {
-                    Label("Medium", systemImage: "cloud.drizzle.fill")
-                }
-                .padding(8)
-                .background(Color("leaf"))
-                .clipShape(.rect(cornerRadius: 10))
-                NavigationLink(destination: EmptyView()) {
-                    Label("Hard", systemImage: "mountain.2.fill")
-                }
-                .padding(8)
-                .background(Color("leaf"))
-                .clipShape(.rect(cornerRadius: 10))
-                NavigationLink(destination: EmptyView()) {
-                    Label("Impossible", systemImage: "flame.fill")
-                        .padding(8)
-                        .background(Color("leaf"))
-                    .clipShape(.rect(cornerRadius: 10))                    }
-                Spacer()
+                    .background(Color("wood"))
+                    .mask {
+                        RoundedRectangle(cornerRadius: 10)
+                            .blur(radius: 15)
+                            .padding(5)
+                    }
+                LotrButton(title: "Easy", icon: "leaf.fill")
+                LotrButton(title: "Medium", icon: "cloud.drizzle.fill")
+                LotrButton(title: "Hard", icon: "mountain.2.fill")
+                LotrButton(title: "Impossible", icon: "flame.fill")
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             .foregroundStyle(Color("trunk"))
@@ -48,7 +40,7 @@ struct QuizHomeScreen: View {
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     NavigationLink(destination: ProfileView()) {
-                        Label("", systemImage: "person.crop.circle")
+                        Label("Profile", systemImage: "person.crop.circle")
                     }
                     .tint(Color("leaf"))
                 }
@@ -61,6 +53,9 @@ struct QuizHomeScreen: View {
 #Preview {
     QuizHomeScreen()
 }
+
+
+
 
 
 
